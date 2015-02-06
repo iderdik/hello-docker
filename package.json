@@ -1,0 +1,16 @@
+{
+
+  "name": "docker hello world",
+  "version": "1.0.0",
+  "author": "Iz Derdik <iz@aviary.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iderdik/hello-docker"
+  },
+  "dependencies": {
+  	"ejs": "0.8.4",
+    "ejs-locals": "1.0.2",
+    "express": "3.3.5",
+    "forever": "0.10.8"
+  }
+}
