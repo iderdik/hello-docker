@@ -1,6 +1,6 @@
 {
 
-  "name": "docker hello world",
+  "name": "docker-hello-world",
   "version": "1.0.0",
   "author": "Iz Derdik <iz@aviary.com>",
   "repository": {

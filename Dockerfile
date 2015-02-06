@@ -8,10 +8,10 @@ FROM phusion/baseimage:0.9.16
 CMD ["/sbin/my_init"]
 
 RUN apt-get update && apt-get install -y \
-    nodejs \
     npm
 
-#Copy code
+ 
+# Copy code
 RUN mkdir -p /src
 COPY . /src   
 
@@ -22,4 +22,4 @@ EXPOSE 3000
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-CMD ["node", "/src/server.js"]
+CMD ["nodejs", "/src/server.js"]
